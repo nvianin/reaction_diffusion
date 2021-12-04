@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: inline;
+}
+div,
+input {
+  display: inline;
+}
+div {
+  width: 10%;
+  font-size: 10pt;
+}
+input {
+  width: 90%;
+}
