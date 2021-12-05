@@ -1,7 +1,8 @@
 let log = console.log
 
-let scene, camera, renderer;
 
+
+let scene, camera, renderer;
 
 let frametexture = new THREE.DataTexture();
 let framebuffer = new THREE.WebGLRenderTarget(window.innerWidth, window.innerHeight, {

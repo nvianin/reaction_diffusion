@@ -113,7 +113,7 @@ void main() {
     /* prev.xyz = vec3(radialblur(prevFrame, uv, .004, 3)); */
     /* prev.xyz = vec3(combined(prevFrame, uv, fk.x, fk.y, 0., 64)); */
     float scale = 1.4;
-    prev.xyz = vec3(combined(prevFrame, uv, 0.0021 * scale, 0.00636 * scale, aspect, 15));
+    prev.xyz = vec3(combined(prevFrame, uv, 0.0021 * scale, 0.00636 * scale, aspect, 12));
     /* if(prev.x > .5) {
         prev.xyz = vec3(1);
     } else {
